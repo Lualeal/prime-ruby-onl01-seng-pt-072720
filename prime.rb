@@ -1,5 +1,5 @@
 def prime?(integer)
-  prime.each do ||
+  prime.each do |prime|
     
   end 
   
