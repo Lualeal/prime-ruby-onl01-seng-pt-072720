@@ -2,15 +2,11 @@ def prime?(integer)
   number = 2 
   
   while number < integer
-    integer % number
+    if integer % number == 0
+     return false 
+    end
+    number += 1
   end
-  
-  prime?.each do |prime|
-    
-    if prime == true
-    else 
-      false 
-  end 
-end 
+  true
 end 
     
