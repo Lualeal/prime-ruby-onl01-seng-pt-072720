@@ -1,6 +1,7 @@
 def prime?(integer)
-  i = 0
-    while 
+  prime.each do ||
+  
+    if 
       true 
     else 
       false 
