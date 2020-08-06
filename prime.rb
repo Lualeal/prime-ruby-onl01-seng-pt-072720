@@ -1,7 +1,6 @@
 def prime?(integer)
   prime?.each do |prime|
-    if 
-      true 
+    if prime == true
     else 
       false 
   end 
