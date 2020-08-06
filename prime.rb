@@ -3,6 +3,14 @@ def prime?(integer)
     return false
   end
   
+  if integer == 1
+    return true
+  end
+  
+  if integer == 2
+    return false
+  end
+  
   number = 2 
   
   while number < integer
